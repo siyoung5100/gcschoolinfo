@@ -1,0 +1,38 @@
+.box{
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 2vw;
+  background: #F2E8DE;
+}
+
+h3{
+  margin-top:1vw;
+  margin-bottom: 1.5vw;
+  font-weight: 600;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1{
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 5vw;
+}
+
+.title{
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  font-size: 7vw;
+}
+
+.floatingbt{
+  position: fixed;
+  
+  
+}
+
+body{
+  background-color:#ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
