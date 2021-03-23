@@ -1,4 +1,4 @@
-const API_KEY = '754f98fa53a74d959067224d575dc742';
+/*const API_KEY = '754f98fa53a74d959067224d575dc742';
 
 function getMenuAPI(){
   fetch(`https://open.neis.go.kr/hub/misTimetable/`)
@@ -18,3 +18,4 @@ function init(){
 }
 
 init();
+*/
