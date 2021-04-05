@@ -13,7 +13,7 @@ h4{
 }
 
 
-.menust{
+.info{
   margin-top: 0;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
@@ -66,21 +66,13 @@ h4{
   align-items: flex-end;
 }
 
-.date{
-  margin-left:2vw;
-  margin-bottom: 1vw;
-  font-size: 2em;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
-}
-
 h1{
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 45px;
 }
 
-.menust{
+.info{
   margin-top: 0;
   font-weight: 300;
   font-family: 'Noto Sans KR', sans-serif;
@@ -98,5 +90,3 @@ h1{
 body{
   padding: 1vw,5vw,5vw,1vw;
 }
-
-

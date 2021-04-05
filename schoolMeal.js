@@ -31,8 +31,7 @@ function getMenuAPI(){
 }
 
 function init(){
-  getDateInfo(); //이건 오늘 급식이 없어서...
-  getMenuAPI();
+  getDateInfo();
 }
 
 
