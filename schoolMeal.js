@@ -7,7 +7,7 @@ const menuabc = document.querySelector(".menu"); //h1태그 선택
 function getDateInfo(){
   const date = new Date();
   const dayOfWeek = date.getDay();
-  API_DATE = `${date.getFullYear()}${date.getMonth()+1 > 9 ? date.getMonth()+1 : `0${date.getMonth()+1}`}${date.getDate()+1 > 9 ? date.getDate()+1 : `0${date.getDate()+1}`}`;
+  API_DATE = `${date.getFullYear()}${date.getMonth()+1 > 9 ? date.getMonth()+1 : `0${date.getMonth()+1}`}${date.getDate() > 9 ? date.getDate() : `0${date.getDate()}`}`;
   console.log(API_DATE);
   if (dayOfWeek == 0 || dayOfWeek == 6){
     menuabc.innerHTML = "오늘은 학교 안 가는 날!";
