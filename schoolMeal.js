@@ -1,7 +1,6 @@
 const API_KEY = "754f98fa53a74d959067224d575dc742"; //나이스 api 인증키
 const API_EDUCODE = "Q10"; // 교육청 코드 넣는 부분
 const API_SCHOOLCODE = "8531006"; //표준학교코드? 들어가는곳
-//let API_DATE = "20210319";  //급식 날짜 고르는 부분
 const menulist = document.querySelector(".menu");
 
 function getDateInfo(){
