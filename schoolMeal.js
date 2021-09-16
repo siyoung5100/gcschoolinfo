@@ -23,10 +23,8 @@ function getMenuAPI(){
     return response.json();
   })
   .then(function(json){
-    console.log(json);
     const menuInfo = json.mealServiceDietInfo[1].row[0].DDISH_NM;
     menulist.innerHTML = menuInfo;
-    console.log(menuInfo);
   });
 }
 
