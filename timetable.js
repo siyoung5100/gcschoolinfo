@@ -32,6 +32,7 @@ function pharsingSchedule(n, json){
     realSchedule += `${loopN + 1}${json[loopN].ITRT_CNTNT}</br>`;
     loopN += 1
   }
+  console.log(realSchedule);
   schedulelist.innerHTML = realSchedule;
 }
 
