@@ -25,7 +25,7 @@ function getMenuAPI(){
   .then(function(json){
     console.log(json);
     const menuInfo = json.mealServiceDietInfo[1].row[0].DDISH_NM;
-    menuabc.innerHTML = menuInfo;
+    menulist.innerHTML = menuInfo;
     console.log(menuInfo);
   });
 }
