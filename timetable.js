@@ -5,7 +5,6 @@ function getDate(){
   const date = new Date();
   const dayOfWeek = date.getDay();
   API_DATE = `${date.getFullYear()}${date.getMonth()+1 > 9 ? date.getMonth()+1 : `0${date.getMonth()+1}`}${date.getDate()}`;//간소화?
-  console.log(API_DATE);
   if (dayOfWeek == 0 || dayOfWeek == 6){
     schedulelist.innerHTML = "오늘은 학교 안 가는 날!";
   } else {
