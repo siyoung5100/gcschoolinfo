@@ -18,6 +18,7 @@ function getScheduleAPI(){
     return response.json();
   })
   .then(function(json){
+    console.log(json);
     const classNumber = json.misTimetable[0].head[0].list_total_count
     const scheduleInfo = json.misTimetable[1].row
     console.log(classNumber, scheduleInfo);
